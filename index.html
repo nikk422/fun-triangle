@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>isTringle</title>
+
+    <style>
+        body{
+            background-color: rgb(154, 204, 204);
+            text-align: center;
+        }
+
+        header {
+            background-color: purple;
+            margin: auto;
+            padding: 1rem;
+        }
+        .fun {
+            text-align: left;
+            color: rgb(154, 204, 204);
+        }
+
+        .link {
+            text-decoration: none;
+            /* display: block; */
+            text-align: right;
+            padding: 0 .5rem;
+            color: aliceblue;
+        }
+        .container{
+            text-align: right;
+        }
+        /* .input{
+            display: block;
+        } */
+        .in-lable{
+            display: block;
+            color: rgb(119, 29, 11);
+            font-size: large;
+            font-weight: 600;
+        }
+        .input{
+            display: block;
+            margin: auto;
+            border-radius: 0.3rem;
+            background-color: cornflowerblue;
+            padding: 0.2rem;
+        }
+        
+        #Tringle-btn{
+            border-radius: 0.5rem;
+            background-color: crimson;
+            margin: 0.5rem;
+            padding: 0.5rem;
+            color: cyan;
+        }
+
+        #output{
+            margin: 1rem;
+            font-size: larger;
+            font-weight: 600;
+        }
+        .foot{
+            background-color: purple;
+            padding: 2rem;
+        }
+
+        .link2{
+            color: rgb(208, 178, 214);
+            padding: 0.5rem;
+            text-decoration: none;
+        }
+        .link-active{
+            font-weight: bold;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="fun">Fun with Triangle</h1>
+        <div class="container">
+            <a class="link link-active" href="index.html">Is Triangle?</a>
+            <a class="link" href="quiz.html">Triangle Quize</a>
+            <a class="link" href="hypotenuse.html">Calcualte Hypotenuse</a>
+            <a class="link" href="area.html">Area of Triangle</a>
+        </div>
+    </header>
+    
+    <h1>is Tringle?</h1>
+    <div class="cent">
+        <label class="in-lable" for="angle1">
+              angle1
+             <input style="margin-top: 1rem; margin-bottom: 1rem;" class="input" type="number" id="angle1">
+         </label>
+         <label class="in-lable" for="angle2">
+            angle2
+            <input style="margin-top: 1rem; margin-bottom: 1rem;" class="input" type="number" id="angle2">   
+        </label>
+        <label class="in-lable" for="angle3">
+            angle3
+            <input style="margin-top: 1rem; margin-bottom: 1rem;" class="input" type="number" id="angle3">
+         </label>
+    </div>
+    <button id="Tringle-btn">check-tringle</button>
+    <div id="output"></div>
+    <footer class="foot">
+        <a class="link2" href="https://in.linkedin.com/in/nikhil-malviya-942607195">Linkdin</a>
+        <a class="link2" href="https://github.com/nikk422">Github</a>
+        <a class="link2" href="https://www.instagram.com/nikk_vishwa_44/">Instagram</a>
+
+    </footer>
+    
+
+    <script src="isTringle.js"></script>
+    
+</body>
+</html>

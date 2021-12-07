@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hypotenuse</title>
+
+    <style>
+        body {
+            background-color: rgb(190, 159, 219);
+            text-align: center;
+        }
+
+        header {
+            background-color: purple;
+            margin: auto;
+            padding: 1rem;
+        }
+
+        .fun {
+            text-align: left;
+            color: rgb(190, 159, 219);
+        }
+
+        .link {
+            text-decoration: none;
+            /* display: block; */
+            text-align: right;
+            padding: 0 .5rem;
+            color: aliceblue;
+        }
+
+        input {
+            display: block;
+            margin: auto;
+            padding: 0.1rem;
+            background-color: rgb(153, 100, 63);
+        }
+
+        .in-lable {
+            color: rgb(54, 20, 92);
+            font-size: large;
+            font-weight: 600;
+        }
+
+        #check-btn {
+            background-color: royalblue;
+            margin: 1rem;
+            padding: 0.4rem;
+            color: solid rgb(134, 29, 17);
+            font-weight: 500;
+        }
+        .container{
+            text-align: right;
+        }
+        .foot{
+            background-color: purple;
+            padding: 2rem;
+        }
+        .link2{
+            color: rgb(208, 178, 214);
+            padding: 0.5rem;
+            text-decoration: none;
+        }
+        .link-active{
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="fun">Fun with Triangle</h1>
+        <div class="container">
+            <a class="link" href="index.html">Is Triangle?</a>
+            <a class="link" href="quiz.html">Triangle Quize</a>
+            <a class="link link-active" href="hypotenuse.html">Calcualte Hypotenuse</a>
+            <a class="link" href="area.html">Area of Triangle</a>
+        </div>
+    </header>
+
+    <h1>Calculate hypotenuse of the Triangle</h1>
+    <div class="cent">
+        <label class="in-lable" for="base">
+            Enter base value(a)
+            <input style="margin-top: 1rem; margin-bottom: 1rem;" type="number" id="base">
+        </label>
+        <label for="height" class="in-lable">
+            Enter height value(b)
+            <input style="margin-top: 1rem; margin-bottom: 1em;" type="number" id="height">
+        </label>
+    </div>
+
+    <button id="check-btn">Calculate hypotenuse</button>
+
+    <h2 id="output"></h2>
+    <footer class="foot">
+        <a class="link2" href="https://in.linkedin.com/in/nikhil-malviya-942607195">Linkdin</a>
+        <a class="link2" href="https://github.com/nikk422">Github</a>
+        <a class="link2" href="https://www.instagram.com/nikk_vishwa_44/">Instagram</a>
+
+    </footer>
+    
+
+    <script src="hypotenuse.js"></script>
+
+</body>
+
+</html>

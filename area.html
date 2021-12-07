@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>area of triangle</title>
+    <style>
+        body{
+            background-color: rgb(209, 164, 209);
+            text-align: center;
+        }
+
+        header {
+            background-color: purple;
+            margin: auto;
+            padding: 1rem;
+        }
+        .fun {
+            text-align: left;
+            color: rgb(209, 164, 209);
+        }
+
+        .link {
+            text-decoration: none;
+            /* display: block; */
+            text-align: right;
+            padding: 0 .5rem;
+            color: aliceblue;
+        }
+        .container{
+            text-align: right;
+        }
+
+        
+        .in-lable{
+            display: block;
+            margin: 1rem;
+        }
+        input{
+            display: block;
+            margin: auto;
+            padding: 0.3rem;
+            border-radius: 0.5rem;
+            background-color: rgb(216, 176, 139);
+        }
+
+        
+
+        #calculate{
+            padding: 0.5rem;
+            margin: 1rem;
+            border-radius: 0.3rem;
+            background-color: rgb(197, 38, 197);
+            color: rgb(208, 178, 214);
+        }
+
+        #output{
+            font-size: larger;
+            color: rgb(154, 22, 158);
+        }
+
+        .foot{
+            background-color: purple;
+            padding: 2rem;
+        }
+
+        .link2{
+            color: rgb(208, 178, 214);
+            padding: 0.5rem;
+            text-decoration: none;
+        }
+        .link-active{
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="fun">Fun with Triangle</h1>
+        <div class="container">
+            <a class="link link-active" href="index.html">Is Triangle?</a>
+            <a class="link" href="quiz.html">Triangle Quize</a>
+            <a class="link" href="hypotenuse.html">Calcualte Hypotenuse</a>
+            <a class="link link-active" href="area.html">Area of Triangle</a>
+        </div>
+    </header>
+    
+    
+    <h1>Area Of Triangle</h1>
+    <div class="cent">
+        <label for="first-side" class="in-lable">
+            Enter first side of Triangle
+            <input style="margin-top: 1rem;" type="number" id="first-side"> 
+        </label>
+        <label for="second-side" class="in-lable">
+            Enter second side of Triangle
+            <input style="margin-top: 1rem;" type="number" id="second-side">
+        </label>
+    </div>
+ 
+    
+    <button id="calculate"> <strong> Calculate Area</strong></button>
+    <h2 id="output"></h2>
+
+    <footer class="foot">
+        <a class="link2" href="https://in.linkedin.com/in/nikhil-malviya-942607195">Linkdin</a>
+        <a class="link2" href="https://github.com/nikk422">Github</a>
+        <a class="link2" href="https://www.instagram.com/nikk_vishwa_44/">Instagram</a>
+
+    </footer>
+    
+    <script src="area.js"></script>
+</body>
+</html>
